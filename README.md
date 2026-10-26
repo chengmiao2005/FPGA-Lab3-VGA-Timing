@@ -1,4 +1,8 @@
-# VGA Timing and Pixel Rendering
+# FPGA Lab 3 — VGA Timing and Pixel Rendering
+
+**Verilog · VGA Timing · RGB565 · Pixel Rendering**
+
+Former repository name: `FPGA3`.
 
 Verilog exercises for 640 × 480 VGA timing, RGB565 output, and coordinate-based text rendering. VGA 时序、像素输出与文字显示实验。
 
@@ -24,9 +28,8 @@ The script runs the original `tb_vga_ctrl` and `vga_pic_tb` testbenches. Logs an
 
 The archived `DevelopmentBoard` instantiates `vga_top`, which is absent from the uploaded source. Its C++ wrapper also expects a different board interface. The archived PLL instantiates vendor-specific `altpll`. These files are retained for reference and excluded from the component simulation command.
 
-`ColorBar` leaves the directional inputs of `vga_pic` unconnected; its integration testbench is retained but is not part of the component run script. For a more complete display-state example, see [FPGA4](https://github.com/chengmiao2005/FPGA4).
+`ColorBar` leaves the directional inputs of `vga_pic` unconnected; its integration testbench is retained but is not part of the component run script. For a more complete display-state example, see [FPGA Lab 4 — VGA Display State Machine](https://github.com/chengmiao2005/FPGA-Lab4-VGA-State-Machine).
 
-
-[Full project portfolio](https://github.com/chengmiao2005/FPGAfinalproject/blob/main/docs/PORTFOLIO.md) · [Original-to-current file map](docs/FILE_MAP.md)
+[FPGA lab index](https://github.com/chengmiao2005/FPGA-Labs) · [Original-to-current file map](docs/FILE_MAP.md)
 
 [Validation record](docs/VALIDATION.md)
